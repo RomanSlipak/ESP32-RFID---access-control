@@ -25,6 +25,12 @@
 
 ## Початок роботи:
 # Бібліотеки
+- MFRC522           by GithubCommunity
+- ArduinoJson       by Benoit Blanchon  (v6.x)
+- Adafruit GFX      by Adafruit
+- Adafruit ST7789   by Adafruit
+- UniversalTelegramBot by Brian Lough
+- SD                (вбудована в ESP32 core)
 
 [Повернутися на початок](#index)
 
@@ -47,14 +53,17 @@
 ## Тестування:
 # Buzzer test.ino
 Призначення: тестова прошивка для перевірки buzzer на правильність підключення та здатність працювати.
+
 [Повернутися на початок](#index)
 
 # RFID test.ino
 Призначення: тестова прошивка для перевірки RFID на правильність підключення та здатність працювати.
+
 [Повернутися на початок](#index)
 
 # Telegram bot test.ino
 Призначення: тестова прошивка для перевірки ESP32, модулю wi-fi на здатність працювати також перевірка правильності wi-fi ssid, wi-fi password, Telegram Chat ID, Bot token.
+
 [Повернутися на початок](#index)
 
 ## Це не кінцевий варіант прошивки, будуть вноситися зміни.
