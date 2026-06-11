@@ -15,7 +15,7 @@
   * [Storage.h](#storage.h)
   * [Telegram.h](#telegram.h)
 * [Тестування](#Тестування)
-  * [Buzzer test](#Buzzer-test.ino)
+  * [Buzzer test](#Buzzer-test)
   * [RFID test](#RFID-test.ino)
   * [Telegram Bot test](#Telegram-bot-test.ino)
 
