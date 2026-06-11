@@ -7,17 +7,17 @@
 * [Початок роботи](#Початок-роботи)
   * [Бібліотеки](#Бібліотеки)   
 * [Основні файли](#Основні-файли)
-  * [Access_control.ino](#access-control.ino)
-  * [Config.h](#config.h)
-  * [Buzzer.h](#buzzer.h)
-  * [Display.h](#display.h)
-  * [RFID.h](#rfid.h)
-  * [Storage.h](#storage.h)
-  * [Telegram.h](#telegram.h)
+  * [Access_control.ino](#Access-control)
+  * [Config.h](#Config)
+  * [Buzzer.h](#Buzzer)
+  * [Display.h](#Display)
+  * [RFID.h](#RFID)
+  * [Storage.h](#Storage)
+  * [Telegram.h](#Telegram)
 * [Тестування](#Тестування)
-  * [Buzzer test](#Buzzer-test)
-  * [RFID test](#RFID-test.ino)
-  * [Telegram Bot test](#Telegram-bot-test.ino)
+  * [Buzzer test.ino](#Buzzer-test)
+  * [RFID test.ino](#RFID-test)
+  * [Telegram Bot test.ino](#Telegram-bot-test)
 
 <p align="center">
   <img src="ESP32 AC.jpg" alt="ESP32 Access Control">
@@ -35,33 +35,56 @@
 [Повернутися на початок](#index)
 
 ## Основні файли:
-# access_control.ino
+# Access_control
+Назва файлу: access_control.ino
+
 [Повернутися на початок](#index)
-# config.h
+
+# Config
+Назва файлу: config.h
+
 [Повернутися на початок](#index)
-# buzzer.h
+
+# Buzzer
+Назва файлу: buzzer.h
+
 [Повернутися на початок](#index)
-# display.h
+
+# Display
+Назва файлу: display.h
+
 [Повернутися на початок](#index)
-# rfid.h
+
+# RFID
+Назва файлу: rfid.h
+
 [Повернутися на початок](#index)
-# storage.h
+
+# Storage
+Назва файлу: storage.h
+
 [Повернутися на початок](#index)
-# telegram.h
+
+# Telegram
+Назва файлу: telegram.h
+
 [Повернутися на початок](#index)
 
 ## Тестування:
 # Buzzer test
+Назва файлу: Buzzer test.ino
 Призначення: тестова прошивка для перевірки buzzer на правильність підключення та здатність працювати.
 
 [Повернутися на початок](#index)
 
-# RFID test.ino
+# RFID test
+Назва файлу: RFID test.ino
 Призначення: тестова прошивка для перевірки RFID на правильність підключення та здатність працювати.
 
 [Повернутися на початок](#index)
 
-# Telegram bot test.ino
+# Telegram bot test
+Назва файлу: Telegram bot test.ino
 Призначення: тестова прошивка для перевірки ESP32, модулю wi-fi на здатність працювати також перевірка правильності wi-fi ssid, wi-fi password, Telegram Chat ID, Bot token.
 
 [Повернутися на початок](#index)
