@@ -7,7 +7,7 @@
 * [Початок роботи](#Початок-роботи)
   * [Бібліотеки](#Бібліотеки)   
 * [Основні файли](#Основні-файли)
-  * [Access_control](#Access-control)
+  * [Access_control.ino](#Access-control)
   * [Config.h](#Config)
   * [Buzzer.h](#Buzzer)
   * [Display.h](#Display)
