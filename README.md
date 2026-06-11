@@ -4,7 +4,7 @@
 Цей репозиторій є практичною реалізацією моєї дипломної роботи на тему: "Розробка системи контролю доступу до приміщення на базі ESP32".
 
 <p align="center">
-  <img src="https://github.com/RomanSlipak/ESP32-RFID---access-control/ESP32 AC.jpg" />
+  <img src="ESP32 AC.jpg" alt="ESP32 Access Control">
 </p>
 
 Це не кінцевий варіант прошивки, будуть вноситися зміни.
