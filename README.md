@@ -25,6 +25,7 @@
 
 ## Початок роботи:
 # Бібліотеки
+Потрібні бібліотеки:
 - MFRC522           by GithubCommunity
 - ArduinoJson       by Benoit Blanchon  (v6.x)
 - Adafruit GFX      by Adafruit
