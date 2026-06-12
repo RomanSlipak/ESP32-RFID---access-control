@@ -23,6 +23,7 @@
   * [Buzzer test.ino](#Buzzer-test)
   * [RFID test.ino](#RFID-test)
   * [Telegram Bot test.ino](#Telegram-bot-test)
+* [Ліцензія](#Ліцензія)
 
 <p align="center">
   <img src="ESP32 AC.jpg" alt="ESP32 Access Control">
@@ -117,5 +118,10 @@
 # Telegram bot test
 - Назва файлу: Telegram bot test.ino
 - Призначення: тестова прошивка для перевірки ESP32, модулю wi-fi на здатність працювати також перевірка правильності wi-fi ssid, wi-fi password, Telegram Chat ID, Bot token.
+
+[Повернутися на початок](#Зміст)
+
+# Ліцензія
+Частини коду, написані автором проєкту ESP32-RFID---access-control, розповсюджуються за ліцензією [MIT License](LICENSE), а сторонні бібліотеки, що використовуються в цьому проєкті, розповсюджуються за іншими ліцензійними умовами; Прошу Вас також ознайомитися з ними. 
 
 [Повернутися на початок](#Зміст)
