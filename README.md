@@ -1,7 +1,10 @@
-## ESP32-RFID---access-control
-Система контролю доступу до приміщення на базі ESP32 та RFID.
+<p align="center"> <strong>ESP32-RFID---access-control</strong>
+<p align="center"> Система контролю доступу до приміщення на базі ESP32 та RFID.
+<p align="center">
+  <img src="ESP32 AC.jpg" alt="ESP32 Access Control" width="85%"/>
+</p>
 
-Цей репозиторій є практичною реалізацією моєї дипломної роботи на тему: "Розробка системи контролю доступу до приміщення на базі ESP32".
+> Цей репозиторій є практичною реалізацією моєї дипломної роботи на тему: "Розробка системи контролю доступу до приміщення на базі ESP32".
 
 > [!IMPORTANT]
 > Це не кінцевий варіант прошивки, будуть вноситися зміни.
@@ -24,10 +27,6 @@
   * [RFID test.ino](#RFID-test)
   * [Telegram Bot test.ino](#Telegram-bot-test)
 * [Ліцензія](#Ліцензія)
-
-<p align="center">
-  <img src="ESP32 AC.jpg" alt="ESP32 Access Control">
-</p>
 
 ## Початок роботи:
 # Бібліотеки
