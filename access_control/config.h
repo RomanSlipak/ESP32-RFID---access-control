@@ -28,13 +28,13 @@
 #define DOOR_OPEN_MS 3000
 
 // Wi-Fi
-#define WIFI_SSID     "Roiz's S23 hotspotu"
-#define WIFI_PASSWORD "22222222"
+#define WIFI_SSID     "- Тут має бути ім'я вашого wi-fi -"
+#define WIFI_PASSWORD "- wi-fi password -"
 #define WIFI_TIMEOUT_MS 10000
 
 // Telegram
-#define BOT_TOKEN   "6932525856:AAF841c3DZRiL025CaQXF_R-yMceuav8X1E"
-#define ADMIN_CHAT_ID "2061951831"
+#define BOT_TOKEN   "- bot token -"
+#define ADMIN_CHAT_ID "- Telegram User ID -"
 #define TELEGRAM_POLL_MS 1000
 
 // Файли на SD
