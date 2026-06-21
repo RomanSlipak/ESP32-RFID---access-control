@@ -1,47 +1,42 @@
 #pragma once
 
-// SPI
+//  Піни SPI (спільна шина VSPI)
 #define PIN_SCK    18
 #define PIN_MOSI   23
 #define PIN_MISO   19
 
-// RFID RC522
+//  RFID RC522
 #define RFID_CS    5
 #define RFID_RST   15
 
-// SD-карта
+//  SD-карта
 #define SD_CS      27
 
-// TFT ST7789 (240x240)
-#define TFT_CS     4
-#define TFT_DC     2
-#define TFT_RST    16
-#define TFT_BL     17
-#define TFT_WIDTH  240
-#define TFT_HEIGHT 240
-
-// Buzzer та реле
-#define PIN_BUZZER  21
-#define PIN_RELAY   22
-#define RELAY_OPEN  LOW
-#define RELAY_CLOSE HIGH
+//  Buzzer та реле
+#define PIN_BUZZER   21
+#define PIN_RELAY    13
+#define RELAY_OPEN   LOW
+#define RELAY_CLOSE  HIGH
 #define DOOR_OPEN_MS 3000
 
-// Wi-Fi
-#define WIFI_SSID     "- Тут має бути ім'я вашого wi-fi -"
-#define WIFI_PASSWORD "- wi-fi password -"
-#define WIFI_TIMEOUT_MS 10000
+//  Майстер картка
+#define MASTER_CARD_UID  " - UID вашої майстер-карти - " 
 
-// Telegram
-#define BOT_TOKEN   "- bot token -"
-#define ADMIN_CHAT_ID "- Telegram User ID -"
+//  Wi-Fi
+#define WIFI_SSID        " - Ім'я вашого Wi-Fi - "
+#define WIFI_PASSWORD    " - Пароль до Wi-Fi - "
+#define WIFI_TIMEOUT_MS  15000
+
+//  Telegram
+#define BOT_TOKEN        " - Telegram bot token - "
+#define ADMIN_CHAT_ID    " - Telegram user ID - "
 #define TELEGRAM_POLL_MS 1000
 
-// Файли на SD
+//  Файли на SD
 #define FILE_CARDS  "/cards.json"
 #define FILE_LOG    "/log.csv"
 
-// Ліміти
-#define MAX_CARDS   50
-#define UID_LEN     9
-#define NAME_LEN    32
+//  Ліміти
+#define MAX_CARDS  50
+#define UID_LEN    9
+#define NAME_LEN   32
