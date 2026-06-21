@@ -6,7 +6,7 @@
 
 MFRC522 mfrc522(RFID_CS, RFID_RST);
 
-// Ініціалізація
+//  Ініціалізація
 void rfidInit() {
     mfrc522.PCD_Init();
     delay(50);
@@ -14,12 +14,12 @@ void rfidInit() {
     mfrc522.PCD_DumpVersionToSerial();
 }
 
-// Перевірка наявності картки
+//  Перевірка наявності картки
 bool rfidCardPresent() {
     return mfrc522.PICC_IsNewCardPresent() && mfrc522.PICC_ReadCardSerial();
 }
 
-// Зчитування UID
+//  Зчитування UID
 String rfidReadUID() {
     String uid = "";
     for (byte i = 0; i < mfrc522.uid.size; i++) {
