@@ -16,20 +16,16 @@ void _beep(int freq, int ms) {
     ledcWriteTone(PIN_BUZZER, 0);  // Вимкнути
 }
 
-// Доступ дозволено
 void beepSuccess() {
     _beep(1000, 100);
     delay(50);
     _beep(1500, 150);
 }
 
-//Доступ заборонено — низький довгий сигнал
 void beepDenied() {
     _beep(400, 400);
 }
 
-
-//  Системний старт
 void beepBoot() {
     for (int i = 0; i < 3; i++) {
         _beep(800, 80);
