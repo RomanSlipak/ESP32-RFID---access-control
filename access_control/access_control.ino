@@ -10,7 +10,6 @@
 #include <SPI.h>
 #include "config.h"
 #include "buzzer.h"
-#include "display.h"
 #include "rfid.h"
 #include "storage.h"
 #include "telegram.h"
