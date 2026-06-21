@@ -30,7 +30,6 @@
 * [Тестування](#Тестування)
   * [Buzzer test.ino](#Buzzer-test)
   * [RFID test.ino](#RFID-test)
-  * [Telegram Bot test.ino](#Telegram-bot-test)
 * [Ліцензія](#Ліцензія)
 
 ---
